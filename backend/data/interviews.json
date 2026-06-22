@@ -1,0 +1,125 @@
+[
+  {
+    "_id": "vpdk3pdxm",
+    "createdAt": "2026-06-17T03:30:27.618Z",
+    "updatedAt": "2026-06-17T03:30:27.618Z",
+    "userId": "z4yonlg8m",
+    "track": "Frontend",
+    "difficulty": "Mid",
+    "status": "active",
+    "questions": [
+      {
+        "questionText": "What are the best strategies to optimize a React application's rendering performance?",
+        "answerText": "",
+        "feedback": null
+      },
+      {
+        "questionText": "What are React Hooks? Explain the rules of Hooks and how useEffect dependency arrays work.",
+        "answerText": "",
+        "feedback": null
+      },
+      {
+        "questionText": "Explain the difference between Virtual DOM and Real DOM in React, and when direct DOM manipulation is preferred.",
+        "answerText": "",
+        "feedback": null
+      },
+      {
+        "questionText": "How does the JavaScript event loop work? Explain microtasks vs. macrotasks.",
+        "answerText": "",
+        "feedback": null
+      },
+      {
+        "questionText": "How do closures work in JavaScript, and what are their typical use cases?",
+        "answerText": "",
+        "feedback": null
+      }
+    ],
+    "overallFeedback": null
+  },
+  {
+    "_id": "8mh3hu6mf",
+    "createdAt": "2026-06-17T03:31:58.393Z",
+    "updatedAt": "2026-06-17T03:31:58.393Z",
+    "userId": "z4yonlg8m",
+    "track": "Frontend",
+    "difficulty": "Mid",
+    "status": "active",
+    "questions": [
+      {
+        "questionText": "Explain the difference between Virtual DOM and Real DOM in React, and when direct DOM manipulation is preferred.",
+        "answerText": "",
+        "feedback": null
+      },
+      {
+        "questionText": "How does the JavaScript event loop work? Explain microtasks vs. macrotasks.",
+        "answerText": "",
+        "feedback": null
+      },
+      {
+        "questionText": "How do closures work in JavaScript, and what are their typical use cases?",
+        "answerText": "",
+        "feedback": null
+      },
+      {
+        "questionText": "What are React Hooks? Explain the rules of Hooks and how useEffect dependency arrays work.",
+        "answerText": "",
+        "feedback": null
+      },
+      {
+        "questionText": "What are the best strategies to optimize a React application's rendering performance?",
+        "answerText": "",
+        "feedback": null
+      }
+    ],
+    "overallFeedback": null
+  },
+  {
+    "_id": "29gsge9d7",
+    "createdAt": "2026-06-19T12:36:54.647Z",
+    "updatedAt": "2026-06-19T12:38:05.356Z",
+    "userId": "2m4im5h1t",
+    "track": "Frontend",
+    "difficulty": "Mid",
+    "status": "active",
+    "questions": [
+      {
+        "questionText": "Explain the difference between Virtual DOM and Real DOM in React, and when direct DOM manipulation is preferred.",
+        "answerText": "Virtual DOM improves performance by updating only changed elements, while Real DOM updates are more expensive; direct DOM manipulation is used only when interacting with browser APIs or third-party libraries.",
+        "feedback": {
+          "score": 65,
+          "strengths": [
+            "Mentioned relevant frontend keywords: dom, performance, browser."
+          ],
+          "weaknesses": [
+            "The answer could benefit from real-world examples."
+          ],
+          "suggestions": [
+            "Add personal project examples and detail the 'why' behind choices."
+          ],
+          "sampleAnswer": "Here is a strong template answer: For a Mid level query on \"Explain the difference between Virtual D...\", a candidate should outline key concepts immediately, explain the logical mechanics, discuss performance trade-offs, and share a production-grade configuration or scenario where it applies."
+        }
+      },
+      {
+        "questionText": "How does the JavaScript event loop work? Explain microtasks vs. macrotasks.",
+        "answerText": "",
+        "feedback": null
+      },
+      {
+        "questionText": "What are the best strategies to optimize a React application's rendering performance?",
+        "answerText": "",
+        "feedback": null
+      },
+      {
+        "questionText": "How do closures work in JavaScript, and what are their typical use cases?",
+        "answerText": "",
+        "feedback": null
+      },
+      {
+        "questionText": "What are React Hooks? Explain the rules of Hooks and how useEffect dependency arrays work.",
+        "answerText": "",
+        "feedback": null
+      }
+    ],
+    "overallFeedback": null
+  }
+]

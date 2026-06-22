@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "z4yonlg8m",
+    "createdAt": "2026-06-17T03:30:07.695Z",
+    "updatedAt": "2026-06-17T03:30:07.696Z",
+    "name": "Developer Candidate",
+    "email": "candidate@example.com",
+    "targetRole": "Full Stack Developer",
+    "experienceLevel": "Mid Level",
+    "resumeText": "",
+    "geminiKey": ""
+  },
+  {
+    "_id": "hs7wyidtk",
+    "createdAt": "2026-06-17T03:46:20.968Z",
+    "updatedAt": "2026-06-17T03:46:20.968Z",
+    "name": "Candidate",
+    "email": "candidate@gmail.com",
+    "password": "$2b$10$Nyu8/z8VcpFp/oOpyzWDKOTqoBp92QLhUHNTcs/7PIGcCUST6M3ti",
+    "targetRole": "Full Stack Engineer",
+    "experienceLevel": "Mid Level",
+    "resumeText": "",
+    "geminiKey": "",
+    "avatar": ""
+  },
+  {
+    "_id": "2m4im5h1t",
+    "createdAt": "2026-06-19T12:36:42.885Z",
+    "updatedAt": "2026-06-19T12:36:42.885Z",
+    "name": "debpriya ganguly",
+    "email": "rana713381@gmail.com",
+    "password": "$2b$10$79Ca524HtQ/ISOmiEDStWOS3AzRj2dMv1pyvsP4NiB.IipC2.Wxfm",
+    "targetRole": "Full Stack Engineer",
+    "experienceLevel": "Mid Level",
+    "resumeText": "",
+    "geminiKey": "",
+    "avatar": ""
+  },
+  {
+    "_id": "3iaif5t8l",
+    "createdAt": "2026-06-19T12:39:00.958Z",
+    "updatedAt": "2026-06-19T12:39:00.958Z",
+    "name": "Google Candidate (Simulated)",
+    "email": "google.candidate@example.com",
+    "googleId": "mock_google_123456789",
+    "avatar": "",
+    "targetRole": "Full Stack Engineer",
+    "experienceLevel": "Mid Level",
+    "resumeText": "",
+    "geminiKey": ""
+  }
+]

@@ -1,0 +1,16 @@
+.platform-loader-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-heading);
+  gap: 16px;
+}
+
+.loader-spinner {
+  font-size: 3rem;
+  animation: pulseGlow 1.5s infinite ease-in-out;
+}

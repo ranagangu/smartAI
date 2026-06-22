@@ -1,0 +1,262 @@
+[
+  {
+    "_id": "psj4tckyz",
+    "createdAt": "2026-06-17T03:30:07.769Z",
+    "updatedAt": "2026-06-17T03:30:07.769Z",
+    "userId": "z4yonlg8m",
+    "role": "Full Stack Developer",
+    "modules": [
+      {
+        "id": "fe_1",
+        "title": "Core JS & Modern CSS Layouts",
+        "description": "Master closures, scope, promises, async/await, event loops, along with responsive CSS layouts using CSS Grid, Flexbox, and Tailwind/Vanilla custom properties.",
+        "resources": [
+          "MDN JavaScript Guide (Advanced topics)",
+          "CSS-Tricks Guide to Flexbox & Grid"
+        ],
+        "exercises": [
+          "Create a vanilla JS dashboard with custom styling showing responsive card grids",
+          "Implement custom custom event emitters and promises from scratch"
+        ],
+        "status": "pending"
+      },
+      {
+        "id": "fe_2",
+        "title": "React Fundamentals & State Architecture",
+        "description": "Deep dive into React lifecycle, reconciliation, hooks (custom hooks), context API, and advanced state management patterns (Redux/Zustand).",
+        "resources": [
+          "Official React Documentation (react.dev)",
+          "Kent C. Dodds articles on React State Colocation"
+        ],
+        "exercises": [
+          "Build a stateful application showcasing dynamic contexts and custom performance hooks",
+          "Optimize a slow component tree using useMemo, useCallback, and React.memo"
+        ],
+        "status": "pending"
+      },
+      {
+        "id": "fe_3",
+        "title": "Web Performance & Build Tools",
+        "description": "Learn code-splitting, lazy loading, image optimizations, bundlers (Vite/Webpack), asset pipelines, and core web vitals measurement.",
+        "resources": [
+          "web.dev/vitals - Core Web Vitals guide",
+          "Vite official guides on code splitting"
+        ],
+        "exercises": [
+          "Deploy a React app and optimize its LCP score to exceed 95 on Lighthouse",
+          "Configure a custom Vite project with manual chunking"
+        ],
+        "status": "pending"
+      },
+      {
+        "id": "fe_4",
+        "title": "System Design & Web Security",
+        "description": "Understand client-side storage, CSRF/XSS prevention, authentication strategies (OAuth, JWT, HTTPOnly cookies), and offline support.",
+        "resources": [
+          "OWASP Top Ten Web Application Security Risks",
+          "ByteByteGo web frontend architectures"
+        ],
+        "exercises": [
+          "Implement an authorization wrapper with token expiration handling",
+          "Build a secure checkout mock form with input sanitation"
+        ],
+        "status": "pending"
+      }
+    ]
+  },
+  {
+    "_id": "6ldttbqok",
+    "createdAt": "2026-06-17T03:46:21.023Z",
+    "updatedAt": "2026-06-17T03:46:21.023Z",
+    "userId": "hs7wyidtk",
+    "role": "Full Stack Engineer",
+    "modules": [
+      {
+        "id": "fe_1",
+        "title": "Core JS & Modern CSS Layouts",
+        "description": "Master closures, scope, promises, async/await, event loops, along with responsive CSS layouts using CSS Grid, Flexbox, and Tailwind/Vanilla custom properties.",
+        "resources": [
+          "MDN JavaScript Guide (Advanced topics)",
+          "CSS-Tricks Guide to Flexbox & Grid"
+        ],
+        "exercises": [
+          "Create a vanilla JS dashboard with custom styling showing responsive card grids",
+          "Implement custom custom event emitters and promises from scratch"
+        ],
+        "status": "pending"
+      },
+      {
+        "id": "fe_2",
+        "title": "React Fundamentals & State Architecture",
+        "description": "Deep dive into React lifecycle, reconciliation, hooks (custom hooks), context API, and advanced state management patterns (Redux/Zustand).",
+        "resources": [
+          "Official React Documentation (react.dev)",
+          "Kent C. Dodds articles on React State Colocation"
+        ],
+        "exercises": [
+          "Build a stateful application showcasing dynamic contexts and custom performance hooks",
+          "Optimize a slow component tree using useMemo, useCallback, and React.memo"
+        ],
+        "status": "pending"
+      },
+      {
+        "id": "fe_3",
+        "title": "Web Performance & Build Tools",
+        "description": "Learn code-splitting, lazy loading, image optimizations, bundlers (Vite/Webpack), asset pipelines, and core web vitals measurement.",
+        "resources": [
+          "web.dev/vitals - Core Web Vitals guide",
+          "Vite official guides on code splitting"
+        ],
+        "exercises": [
+          "Deploy a React app and optimize its LCP score to exceed 95 on Lighthouse",
+          "Configure a custom Vite project with manual chunking"
+        ],
+        "status": "pending"
+      },
+      {
+        "id": "fe_4",
+        "title": "System Design & Web Security",
+        "description": "Understand client-side storage, CSRF/XSS prevention, authentication strategies (OAuth, JWT, HTTPOnly cookies), and offline support.",
+        "resources": [
+          "OWASP Top Ten Web Application Security Risks",
+          "ByteByteGo web frontend architectures"
+        ],
+        "exercises": [
+          "Implement an authorization wrapper with token expiration handling",
+          "Build a secure checkout mock form with input sanitation"
+        ],
+        "status": "pending"
+      }
+    ]
+  },
+  {
+    "_id": "80ferlw3u",
+    "createdAt": "2026-06-19T12:36:43.039Z",
+    "updatedAt": "2026-06-19T12:36:43.039Z",
+    "userId": "2m4im5h1t",
+    "role": "Full Stack Engineer",
+    "modules": [
+      {
+        "id": "fe_1",
+        "title": "Core JS & Modern CSS Layouts",
+        "description": "Master closures, scope, promises, async/await, event loops, along with responsive CSS layouts using CSS Grid, Flexbox, and Tailwind/Vanilla custom properties.",
+        "resources": [
+          "MDN JavaScript Guide (Advanced topics)",
+          "CSS-Tricks Guide to Flexbox & Grid"
+        ],
+        "exercises": [
+          "Create a vanilla JS dashboard with custom styling showing responsive card grids",
+          "Implement custom custom event emitters and promises from scratch"
+        ],
+        "status": "pending"
+      },
+      {
+        "id": "fe_2",
+        "title": "React Fundamentals & State Architecture",
+        "description": "Deep dive into React lifecycle, reconciliation, hooks (custom hooks), context API, and advanced state management patterns (Redux/Zustand).",
+        "resources": [
+          "Official React Documentation (react.dev)",
+          "Kent C. Dodds articles on React State Colocation"
+        ],
+        "exercises": [
+          "Build a stateful application showcasing dynamic contexts and custom performance hooks",
+          "Optimize a slow component tree using useMemo, useCallback, and React.memo"
+        ],
+        "status": "pending"
+      },
+      {
+        "id": "fe_3",
+        "title": "Web Performance & Build Tools",
+        "description": "Learn code-splitting, lazy loading, image optimizations, bundlers (Vite/Webpack), asset pipelines, and core web vitals measurement.",
+        "resources": [
+          "web.dev/vitals - Core Web Vitals guide",
+          "Vite official guides on code splitting"
+        ],
+        "exercises": [
+          "Deploy a React app and optimize its LCP score to exceed 95 on Lighthouse",
+          "Configure a custom Vite project with manual chunking"
+        ],
+        "status": "pending"
+      },
+      {
+        "id": "fe_4",
+        "title": "System Design & Web Security",
+        "description": "Understand client-side storage, CSRF/XSS prevention, authentication strategies (OAuth, JWT, HTTPOnly cookies), and offline support.",
+        "resources": [
+          "OWASP Top Ten Web Application Security Risks",
+          "ByteByteGo web frontend architectures"
+        ],
+        "exercises": [
+          "Implement an authorization wrapper with token expiration handling",
+          "Build a secure checkout mock form with input sanitation"
+        ],
+        "status": "pending"
+      }
+    ]
+  },
+  {
+    "_id": "ervqqr5y4",
+    "createdAt": "2026-06-19T12:39:01.026Z",
+    "updatedAt": "2026-06-19T12:39:01.026Z",
+    "userId": "3iaif5t8l",
+    "role": "Full Stack Engineer",
+    "modules": [
+      {
+        "id": "fe_1",
+        "title": "Core JS & Modern CSS Layouts",
+        "description": "Master closures, scope, promises, async/await, event loops, along with responsive CSS layouts using CSS Grid, Flexbox, and Tailwind/Vanilla custom properties.",
+        "resources": [
+          "MDN JavaScript Guide (Advanced topics)",
+          "CSS-Tricks Guide to Flexbox & Grid"
+        ],
+        "exercises": [
+          "Create a vanilla JS dashboard with custom styling showing responsive card grids",
+          "Implement custom custom event emitters and promises from scratch"
+        ],
+        "status": "pending"
+      },
+      {
+        "id": "fe_2",
+        "title": "React Fundamentals & State Architecture",
+        "description": "Deep dive into React lifecycle, reconciliation, hooks (custom hooks), context API, and advanced state management patterns (Redux/Zustand).",
+        "resources": [
+          "Official React Documentation (react.dev)",
+          "Kent C. Dodds articles on React State Colocation"
+        ],
+        "exercises": [
+          "Build a stateful application showcasing dynamic contexts and custom performance hooks",
+          "Optimize a slow component tree using useMemo, useCallback, and React.memo"
+        ],
+        "status": "pending"
+      },
+      {
+        "id": "fe_3",
+        "title": "Web Performance & Build Tools",
+        "description": "Learn code-splitting, lazy loading, image optimizations, bundlers (Vite/Webpack), asset pipelines, and core web vitals measurement.",
+        "resources": [
+          "web.dev/vitals - Core Web Vitals guide",
+          "Vite official guides on code splitting"
+        ],
+        "exercises": [
+          "Deploy a React app and optimize its LCP score to exceed 95 on Lighthouse",
+          "Configure a custom Vite project with manual chunking"
+        ],
+        "status": "pending"
+      },
+      {
+        "id": "fe_4",
+        "title": "System Design & Web Security",
+        "description": "Understand client-side storage, CSRF/XSS prevention, authentication strategies (OAuth, JWT, HTTPOnly cookies), and offline support.",
+        "resources": [
+          "OWASP Top Ten Web Application Security Risks",
+          "ByteByteGo web frontend architectures"
+        ],
+        "exercises": [
+          "Implement an authorization wrapper with token expiration handling",
+          "Build a secure checkout mock form with input sanitation"
+        ],
+        "status": "pending"
+      }
+    ]
+  }
+]

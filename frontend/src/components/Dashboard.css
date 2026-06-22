@@ -1,0 +1,209 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.dashboard-content-layout {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 24px;
+}
+
+.dashboard-left-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.dashboard-right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.dashboard-card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-header h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.card-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  background: rgba(99, 102, 241, 0.1);
+  color: var(--accent-primary);
+  border-radius: 20px;
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.tag-success {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--success-color);
+  border-color: rgba(16, 185, 129, 0.2);
+}
+
+/* SVG Chart Styles */
+.svg-chart-container {
+  width: 100%;
+  height: 180px;
+  padding: 10px 0;
+}
+
+.chart-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+  height: 180px;
+  color: var(--text-secondary);
+  border: 1.5px dashed var(--border-color);
+  border-radius: var(--border-radius-md);
+  padding: 20px;
+}
+
+.chart-empty-state p {
+  font-size: 0.85rem;
+}
+
+.chart-dot-group circle {
+  transition: r 0.2s ease;
+  cursor: pointer;
+}
+
+.chart-dot-group:hover circle {
+  r: 7.5;
+  fill: var(--accent-secondary);
+}
+
+/* Skill Bars */
+.skill-bars-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skill-bar-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skill-bar-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+
+.skill-bar-name {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.skill-bar-value {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.skill-bar-track {
+  height: 8px;
+  background: var(--border-color);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Action Card */
+.action-glow-card {
+  border-color: var(--border-color-hover);
+  box-shadow: 0 0 25px rgba(99, 102, 241, 0.12);
+  background: linear-gradient(135deg, rgba(18, 22, 38, 0.85) 0%, rgba(26, 31, 54, 0.5) 100%);
+}
+
+.action-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Next Module */
+.roadmap-next-module {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.next-mod-title {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.next-mod-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.roadmap-completed-state {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 12px 0;
+}
+
+/* Profile Summary */
+.profile-summary-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 0.9rem;
+}
+
+.profile-summary-item:last-of-type {
+  border-bottom: none;
+}
+
+.p-label {
+  color: var(--text-secondary);
+}
+
+.p-value {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 992px) {
+  .dashboard-content-layout {
+    grid-template-columns: 1fr;
+  }
+}
