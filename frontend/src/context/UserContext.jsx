@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const UserContext = createContext();
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://smartai-e9en.onrender.com/api';
 
 export const UserProvider = ({ children }) => {
   const [token, setToken] = useState(localStorage.getItem('auth_token') || null);
